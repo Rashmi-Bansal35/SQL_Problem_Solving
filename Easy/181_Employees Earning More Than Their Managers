@@ -1,0 +1,4 @@
+-- Problem: Duplicate Emails
+-- Platform: LeetCode
+-- Difficulty: Easy
+Select e.name as Employee from Employee e join employee m on e.managerId = m.id where e.salary > m.salary;
