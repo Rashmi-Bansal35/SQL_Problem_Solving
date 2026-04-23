@@ -1,3 +1,6 @@
+-- Problem: Movie Rating
+-- Platform: LeetCode
+-- Difficulty: Medium
 
 (select name as results
 from MovieRating join Users using(user_id)
