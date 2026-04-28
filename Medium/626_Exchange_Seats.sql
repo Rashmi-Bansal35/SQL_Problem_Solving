@@ -1,6 +1,6 @@
 -- Problem: Exchange Seats
 -- Platform: LeetCode
--- Difficulty: Medium
+-- Difficulty: Medium 
 
 select case 
     when id % 2 != 0 and id = (Select count(*) from Seat) then id
